@@ -4,7 +4,7 @@ setup(
     name='mcqgenrator',
     version='0.0.1',
     author='Gaurav Shrivastava',
-    author_email='apoorva.kudesiya@gmail.com',
+    author_email='Gaurav.Shrivastava@hpcl.in',
     install_requires=["openai","langchain","streamlit","python-dotenv","PyPDF2"],
     packages=find_packages()
 )
