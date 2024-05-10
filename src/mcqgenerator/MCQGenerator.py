@@ -11,7 +11,7 @@ import PyPDF2
 
 load_dotenv()
 
-llm = ChatOpenAI(openai_api_key="sk-proj-IrYujY0dXZa3sh1eA5X0T3BlbkFJ7xl8gE7PFUZDGCc0IlJZ", model_name="gpt-3.5-turbo", temperature=0)
+llm = ChatOpenAI(openai_api_key="sk-proj-FKTj20tb1TfHSKHpdYgwT3BlbkFJMPaOVgbfClZw3jko1gfW", model_name="gpt-3.5-turbo", temperature=0)
 
 #with open("C:\\Users\\HP\\mcqgen1\\Response.json", "r") as f:
  #  RESPONSE_JSON = json.load(f)
