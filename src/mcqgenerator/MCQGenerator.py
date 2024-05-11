@@ -8,10 +8,11 @@ import json
 from dotenv import load_dotenv
 import PyPDF2
 
-
+#load environment variables from the .env file
 load_dotenv()
-
-llm = ChatOpenAI(openai_api_key="sk-proj-FKTj20tb1TfHSKHpdYgwT3BlbkFJMPaOVgbfClZw3jko1gfW", model_name="gpt-3.5-turbo", temperature=0)
+#access the environment variables just like you would with os.environ
+Key=os.getenv("OPENAI_API_KEY")
+llm = ChatOpenAI(openai_api_key= Key, model_name="gpt-3.5-turbo", temperature=0)
 
 #with open("C:\\Users\\HP\\mcqgen1\\Response.json", "r") as f:
  #  RESPONSE_JSON = json.load(f)
